@@ -4,7 +4,7 @@ const ig = require('./instagram');
 
   await ig.initialize();
 
-  await ig.login('smokey_shmoe', '0201123rR$');
+  await ig.login('***', '***$');
 
   await ig.retrieveAllFollowers('smokey_shmoe');
 
